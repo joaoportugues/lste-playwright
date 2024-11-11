@@ -41,4 +41,14 @@ export class MyPostPage {
             //}).toPass();
         });
     }
+
+    public async consoleListener() {
+        await test.step('Validate no console errors', async () => {
+            this.page.on('console', (message) => {
+                if (message.type() === 'error') {
+                    this.errorLogs.push({ message: message.text() });
+                }
+            });
+        })
+    }
 }
