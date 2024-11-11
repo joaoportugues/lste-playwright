@@ -6,7 +6,16 @@ test('Login to mypost', async ({ page}) => {
   const myPostPage = new MyPostPage(page);
   const luxIdPage = new LuxIdPage(page);
 
+
+  await test.step('Go to LuxId Login', async () => {
     await myPostPage.goToLogin();
+  })
+
+  await test.step('Login to LuxId', async () => {
     await luxIdPage.connectToLuxID();
-    await myPostPage.validateDashboard();
+  })
+
+  await test.step('Validate dashboard', async () => {
+      await myPostPage.validateDashboard();
+  })
 });
