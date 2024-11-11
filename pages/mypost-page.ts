@@ -51,4 +51,16 @@ export class MyPostPage {
             });
         })
     }
+
+    public async compareScreenshots() {
+        await test.step('Validate dashboard screenshot', async () => {
+            expect.soft(await this.page.screenshot()).toMatchSnapshot('dashboard.png');
+        });
+    }
+
+    public async compareScreenshotElement() {
+        await test.step('Validate element screenshot', async () => {
+            expect.soft(await this.page.locator('.pt-overlay').first().screenshot()).toMatchSnapshot('first-tile.png');
+        });
+    }
 }

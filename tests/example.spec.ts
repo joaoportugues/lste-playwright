@@ -6,6 +6,8 @@ test('Login to mypost', async ({ myPostPage, luxIdPage }) => {
   await myPostPage.goToLogin();
   await luxIdPage.connectToLuxID();
   await myPostPage.validateDashboard();
+  await myPostPage.compareScreenshots();
+  await myPostPage.compareScreenshotElement();
 
   expect.soft(myPostPage.errorLogs.length).toBeLessThan(10)
 });
