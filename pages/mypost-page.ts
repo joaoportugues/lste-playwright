@@ -1,4 +1,5 @@
 import { expect, Locator, Page, test } from '@playwright/test';
+import fs from 'fs';
 
 export class MyPostPage {
     readonly acceptCookies: Locator;
@@ -37,7 +38,8 @@ export class MyPostPage {
 
             //await expect(async () => {
             await this.acceptMyPostCookies.click();
-            await expect(this.firstTile).toBeVisible();
+            await this.page.waitForLoadState('networkidle')
+            await this.page.mouse.move(0, 0);
             //}).toPass();
         });
     }
@@ -52,23 +54,38 @@ export class MyPostPage {
         })
     }
 
-    public async compareScreenshots(){
+    public async compareScreenshots() {
         await test.step('Validate dashboard screenshot', async () => {
-          // Default threshold 0.2 for acceptable perceived color difference in the YIQ color space
-          // Possible to configure maxDiffPixelRatio and maxDiffPixels for some flexibility
-          // expect(await this.page.screenshot()).toMatchSnapshot('dashboard.png');
-          // expect(await this.page.locator('.pt-overlay').first().screenshot()).toMatchSnapshot('first-tile.png');
-          await this.page.screenshot({ 
-            path: 'tests/example.spec.ts-snapshots/masked.png', 
-            mask: [this.page.locator('.pt-overlay').first()],
-            maskColor: '#000000',
-          });
+            // Default threshold 0.2 for acceptable perceived color difference in the YIQ color space
+            // Possible to configure maxDiffPixelRatio and maxDiffPixels for some flexibility
+            await this.page.waitForLoadState('networkidle');
+            expect.soft(await this.page.screenshot()).toMatchSnapshot('dashboard.png');
+            // expect(await this.page.locator('.pt-overlay').first().screenshot()).toMatchSnapshot('first-tile.png');
+            await this.page.screenshot({
+                path: 'tests/example.spec.ts-snapshots/masked.png',
+                mask: [this.page.locator('.pt-overlay').first()],
+                maskColor: '#000000',
+            });
         });
-      }
+    }
 
     public async compareScreenshotElement() {
         await test.step('Validate element screenshot', async () => {
             expect.soft(await this.page.locator('.pt-overlay').first().screenshot()).toMatchSnapshot('first-tile.png');
         });
+    }
+
+    public async interceptMe() {
+        await this.page.route('**/services/myaccount-web-api/me', async route => {
+            const response = await this.page.request.fetch(route.request());
+            const jsonData = await fs.promises.readFile('responses/myaccount-web-api-me.json', 'utf8');
+
+            await route.fulfill({
+                response,
+                body: JSON.stringify(
+                    jsonData
+                ),
+            });
+        })
     }
 }

@@ -2,6 +2,7 @@ import { test, expect } from '../pages/mypost-fixture';
 
 test('Login to mypost', async ({ myPostPage, luxIdPage }) => {
   await myPostPage.consoleListener();
+  await myPostPage.interceptMe();
 
   await myPostPage.goToLogin();
   await luxIdPage.connectToLuxID();

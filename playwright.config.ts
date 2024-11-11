@@ -37,13 +37,20 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],
+        proxy: {
+          server: 'http://10.71.2.20:8080',
+        },
+       },
     },
 
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'], 
-        locale: 'fr-FR'
+        locale: 'fr-FR',
+        proxy: {
+          server: 'http://10.71.2.20:8080',
+        },
       },
     },
 

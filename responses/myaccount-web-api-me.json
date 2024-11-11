@@ -1,0 +1,76 @@
+{
+    "address": {
+      "active": true,
+      "additiveInfos": {
+        "supplement": ""
+      },
+      "city": "PETANGE",
+      "country": "LU",
+      "preNumStreet": "2",
+      "street": "RUE DICKS",
+      "zip": "4730"
+    },
+    "birthDate": -83336400000,
+    "civility": {
+      "code": "DR",
+      "id": "5a5cb0353453d8a7ef21d627",
+      "translations": {
+        "de": "Arzt",
+        "en": "Doctor",
+        "fr": "Docteur"
+      }
+    },
+    "email": "joao.portugues@ext.post.lu",
+    "firstName": "sdsd",
+    "hasBeenCompleted": true,
+    "langPref": "fr",
+    "lastName": "sdsd",
+    "major": true,
+    "mobile": {
+      "number": "621621621",
+      "prefix": "352"
+    },
+    "tiles": [
+      {
+        "active": false,
+        "name": "packup",
+        "weight": 4
+      },
+      {
+        "active": false,
+        "name": "mobile",
+        "weight": 6
+      },
+      {
+        "active": false,
+        "name": "fixe",
+        "weight": 5
+      },
+      {
+        "active": false,
+        "name": "gardexp",
+        "weight": 3
+      },
+      {
+        "active": true,
+        "name": "masslabeling",
+        "weight": 22
+      },
+      {
+        "active": false,
+        "name": "affel",
+        "weight": 21
+      },
+      {
+        "active": true,
+        "name": "erm",
+        "weight": 20
+      },
+      {
+        "active": false,
+        "name": "webmail",
+        "weight": 1
+      }
+    ],
+    "type": "User"
+  }
