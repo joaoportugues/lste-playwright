@@ -1,18 +1,16 @@
 import { test, expect } from '@playwright/test';
+import { typePassword } from './type-password';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
-
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+test('test', async ({ page }) => {
+  await page.goto('https://www.post.lu/particuliers/mypost?TAM_OP=login&METHOD=GET&URL=https%3A%2F%2Fwww.mypost.lu%2Fmyaccount-web%2F&AUTHNLEVEL=');
+  await page.getByRole('button', { name: 'Ok, j’accepte' }).click();
+  await page.getByLabel('Je me connecte à mon compte').click();
+  await page.getByPlaceholder('joanna.schmidt@pt.lu').click();
+  await page.getByPlaceholder('joanna.schmidt@pt.lu').fill('joao.portugues@post.lu');
+  await page.getByRole('button', { name: 'Connexion' }).click();
+  await page.getByPlaceholder('mot de passe').click();
+  await typePassword(page);
+  await page.getByRole('button', { name: 'Connexion avec mot de passe' }).click();
+  await page.getByRole('button', { name: 'Ok, j’accepte' }).click();
+  await expect(page.locator('span').filter({ hasText: /^Achetez et imprimez vos affranchissements depuis chez vous !$/ })).toBeVisible();
 });
