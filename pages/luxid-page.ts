@@ -1,6 +1,5 @@
-import { expect,  Locator,  Page } from '@playwright/test';
+import { test, Locator, Page } from '@playwright/test';
 import { typePassword } from '../tests/type-password';
-
 
 export class LuxIdPage {
     readonly email: Locator;
@@ -17,12 +16,14 @@ export class LuxIdPage {
         this.connectWithPassword = this.page.getByRole('button', { name: 'Connexion avec mot de passe' });
     }
 
-    public async connectToLuxID(){
-        await this.email.click();
-        await this.email.fill('joao.portugues@post.lu');
-        await this.connect.click();
-        await this.password.click()
-        await typePassword(this.page);
-        await this.connectWithPassword.click();
+    public async connectToLuxID() {
+        await test.step('Login to LuxId', async () => {
+            await this.email.click();
+            await this.email.fill('joao.portugues@post.lu');
+            await this.connect.click();
+            await this.password.click()
+            await typePassword(this.page);
+            await this.connectWithPassword.click();
+        })
     }
 }

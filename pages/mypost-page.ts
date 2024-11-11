@@ -1,4 +1,4 @@
-import { expect,  Locator,  Page } from '@playwright/test';
+import { expect, Locator, Page, test } from '@playwright/test';
 
 export class MyPostPage {
     readonly acceptCookies: Locator;
@@ -24,16 +24,21 @@ export class MyPostPage {
         this.errorLogs = []
     }
 
-    public async goToLogin(){
-        await this.page.goto('/');
-        await this.acceptCookies.click();
-        await this.connectBtn.click();
+    public async goToLogin() {
+        await test.step('Go to LuxId Login', async () => {
+            await this.page.goto('/');
+            await this.acceptCookies.click();
+            await this.connectBtn.click();
+        })
     }
 
-    public async validateDashboard(){
-        //await expect(async () => {
+    public async validateDashboard() {
+        await test.step('Validate dashboard', async () => {
+
+            //await expect(async () => {
             await this.acceptMyPostCookies.click();
             await expect(this.firstTile).toBeVisible();
-          //}).toPass();
+            //}).toPass();
+        });
     }
 }
