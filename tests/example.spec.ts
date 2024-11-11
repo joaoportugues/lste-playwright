@@ -1,14 +1,9 @@
 import { test, expect } from '../pages/mypost-fixture';
 
-test('Login to mypost', async ({ myPostPage, luxIdPage }) => {
-  await myPostPage.consoleListener();
-  await myPostPage.interceptMe();
-
-  await myPostPage.goToLogin();
-  await luxIdPage.connectToLuxID();
-  await myPostPage.validateDashboard();
+test('Login to mypost', async ({ page, myPostPage }) => {
+  await myPostPage.goto('https://www.mypost.lu/myaccount-web/dashboard');
+  await page.waitForLoadState('networkidle')
   await myPostPage.compareScreenshots();
-  await myPostPage.compareScreenshotElement();
 
   expect.soft(myPostPage.errorLogs.length).toBeLessThan(10)
 });

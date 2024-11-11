@@ -35,9 +35,12 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+    { name: 'setup', testMatch: '**.setup.ts' },
     {
       name: 'chromium',
+      // dependencies: ['setup'],
       use: { ...devices['Desktop Chrome'],
+        storageState: 'auth/user.json',
         proxy: {
           server: 'http://10.71.2.20:8080',
         },
@@ -46,7 +49,9 @@ export default defineConfig({
 
     {
       name: 'firefox',
+      // dependencies: ['setup'],
       use: { ...devices['Desktop Firefox'], 
+        storageState: 'auth/user.json',
         locale: 'fr-FR',
         proxy: {
           server: 'http://10.71.2.20:8080',

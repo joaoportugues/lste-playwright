@@ -88,4 +88,12 @@ export class MyPostPage {
             });
         })
     }
+
+    public async saveState(){
+        await this.page.context().storageState( {path: 'auth/user.json'})
+      }
+
+    public async goto(url: string) {
+        await this.page.goto(url);
+    }
 }

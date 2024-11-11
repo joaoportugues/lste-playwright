@@ -1,0 +1,621 @@
+{
+  "cookies": [
+    {
+      "name": "X-AB",
+      "value": "c2075ee9444149d6b2ff54a8d6aa40e6",
+      "domain": "sc-static.net",
+      "path": "/scevent.min.js",
+      "expires": 1731417291.188398,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SESSAFFI",
+      "value": "PBC5YS:530129598",
+      "domain": ".www.mypost.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TS018d312d",
+      "value": "0123ca89112538fe95e2123af00e3daa2b400fe181be9e71a6f95387e4c887a107880a4def1a574e7ac476544f6415bc9211554bc8",
+      "domain": "www.mypost.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TS016a7e74",
+      "value": "0123ca89112538fe95e2123af00e3daa2b400fe181be9e71a6f95387e4c887a107880a4def1a574e7ac476544f6415bc9211554bc8",
+      "domain": ".www.mypost.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SESSAFFI",
+      "value": "PBC5YS:1858336588",
+      "domain": ".www.post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TS016b395c",
+      "value": "0123ca89112ecbaf0b52ee4bc68f93372746e9bed0f4428410d2f56632aaf30097fc42042ee57e30b920c152c8c96bab915bb0cac5",
+      "domain": "www.post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TS01fe91e1",
+      "value": "0123ca89112ecbaf0b52ee4bc68f93372746e9bed0f4428410d2f56632aaf30097fc42042ee57e30b920c152c8c96bab915bb0cac5",
+      "domain": ".www.post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "treafik_sticky_session_cookie",
+      "value": "babccd15ce8eeabf",
+      "domain": "www.post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "26F3C48C4ED85C3317EEF45EC18EA16B",
+      "domain": "www.post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GUEST_LANGUAGE_ID",
+      "value": "fr_FR",
+      "domain": "www.post.lu",
+      "path": "/",
+      "expires": 1731417290,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LFR_SESSION_STATE_20106",
+      "value": "1731330890459",
+      "domain": "www.post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2024-11-11T13:14:50.733Z",
+      "domain": ".www.post.lu",
+      "path": "/",
+      "expires": 1762866890,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Mon+Nov+11+2024+14%3A14%3A50+GMT%2B0100+(Central+European+Standard+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=c0523df5-5e8c-4f8d-815c-0476a1a8ae7a&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C4%3A1%2C5%3A1%2C3%3A1%2C2%3A1",
+      "domain": ".www.post.lu",
+      "path": "/",
+      "expires": 1762866890,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ppms_privacy_87241c1a-d852-4eb3-9c85-f6f0d4214412",
+      "value": "{%22visitorId%22:%220386c472-e2ee-46da-8f0d-f5ef4caa32b0%22%2C%22domain%22:{%22normalized%22:%22www.post.lu%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.post.lu%22}%2C%22consents%22:{%22analytics%22:{%22status%22:1}%2C%22conversion_tracking%22:{%22status%22:1}%2C%22remarketing%22:{%22status%22:1}}}",
+      "domain": "www.post.lu",
+      "path": "/",
+      "expires": 1762866890,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "rxVisitor",
+      "value": "1731330891118UEMRV72VSIGSP2SR9661IQA410INA0H6",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_pk_id.87241c1a-d852-4eb3-9c85-f6f0d4214412.ada6",
+      "value": "d81e487c95e0bf3b.1731330891.1.1731330891.1731330891.",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1765286091,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_pk_ses.87241c1a-d852-4eb3-9c85-f6f0d4214412.ada6",
+      "value": "*",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1731332691,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "YSC",
+      "value": "CMJh8j_7pmg",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "lYpQ4_cfs3A",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1746882891.175862,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJMVRIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgHg%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1746882891.175902,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dtPC",
+      "value": "-6$330889943_96h24vFLWGMFCMHMVJBKFJRUPCPVACPFOCMIRO-0e0",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cs_c",
+      "value": "0",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1765494891,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cs_id",
+      "value": "ef82b2a9-5c0d-ab79-9b8b-52f4a85646b3.1731330891.1.1731330891.1731330891.1728295787.1765494891262.1",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1765494891,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "apx_seg36892216",
+      "value": "1",
+      "domain": "trk.adbutter.net",
+      "path": "/",
+      "expires": 1733922891.270818,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "apx_conv1774570",
+      "value": "1",
+      "domain": "trk.adbutter.net",
+      "path": "/",
+      "expires": 1733922891.27089,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1845362837.1731330891",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1739106891,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid",
+      "value": "fySyFACWIGvJzw-UpURmY645fp8oIEEV",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1765517589,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid_r",
+      "value": "fySyFACWIGvJzw-UpURmY645fp8oIEEV",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1765517589,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&82952396-7ec1-4122-83f8-8a86c65473a6\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1762866891.347143,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "li_gc",
+      "value": "MTswOzE3MzEzMzA4OTE7MjswMjFUBvtroMHZBVgTQYEDiO0xcNQSgLUUwvpq5SHlj5gm0A==",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1746882891.347207,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=VGST09:s=V:r=V:a=V:p=V:g=3039:u=1:x=1:i=1731330891:t=1731417291:v=2:sig=AQF0bSfhKYXr1gkaPiU1JgqnE-pESQMQ\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1731417291.347227,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dtSa",
+      "value": "true%7CC%7C-1%7CJe%20me%20connecte%7C-%7C1731330891361%7C330889943_96%7Chttps%3A%2F%2Fwww.post.lu%2Fparticuliers%2Fmypost%3FTAM_5FOP%3Dlogin%26METHOD%3DGET%26URL%3Dhttps_253A_252F_252Fwww.mypost.lu_252Fmyaccount-web_252F%26AUTHNLEVEL%3D%7C%7C%7C%7C",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1731331791.410033,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dtCookie",
+      "value": "v_4_srv_6_sn_H4D3UM2OTM2DPB3G3968K9UL3C1EV84I_perc_100000_ol_0_mul_1_app-3Ab6a120e287fd7e6f_0",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TS015bfb82",
+      "value": "0123ca89112ecbaf0b52ee4bc68f93372746e9bed0f4428410d2f56632aaf30097fc42042ee57e30b920c152c8c96bab915bb0cac5",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ad-id",
+      "value": "A3svtNhtOkzWlii7FBSz_xA",
+      "domain": ".amazon-adsystem.com",
+      "path": "/",
+      "expires": 1751375691.545532,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ad-privacy",
+      "value": "0",
+      "domain": ".amazon-adsystem.com",
+      "path": "/",
+      "expires": 1765890891.545604,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rxvt",
+      "value": "1731332692048|1731330891154",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cs_s",
+      "value": "1.T.0.9.1731332692059",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1731332692,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetsid",
+      "value": "ef9d6a60a02e11ef99404f5feda39f43",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1731417292,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "ef9d5710a02e11efaed24d962f82c5d0",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1765026892,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "11808AAA593C651231549F9E58EE64F0",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1765026893.116892,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tfpsi",
+      "value": "1e9518dd-9226-470b-a200-b8afe23789cb",
+      "domain": ".post.lu",
+      "path": "/",
+      "expires": 1731332692.132467,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "000081xBWzdLfqEPD3nkb9yknYB:19ee2911-3cfd-483b-8e3a-0fdb52380a1d",
+      "domain": "www.mypost.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PD_STATEFUL_6c3e3f1e-4d8c-11ef-8bcf-005056b35a37",
+      "value": "%2Fmga",
+      "domain": "www.mypost.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SESSAFFI_login.luxid.lu",
+      "value": "PBC5YS:530129666",
+      "domain": ".login.luxid.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TS019537f2",
+      "value": "018f7f534cac7fa0a7acac6cfaa42d21d74864b1e3d7b743498e7c143992d0998851dd5f3a74341f28f884f7f2a7163231c6ea65e9",
+      "domain": "login.luxid.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TS01166207",
+      "value": "018f7f534cac7fa0a7acac6cfaa42d21d74864b1e3d7b743498e7c143992d0998851dd5f3a74341f28f884f7f2a7163231c6ea65e9",
+      "domain": ".login.luxid.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": "cm.teads.tv",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPTC",
+      "value": "DITKny-hLmLr6X-TJz9HXnEBx1clJP-3B5Fau8DSlTA",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1765026893.324156,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "00008bu-T1brGctt7v5NVCSZNIu:19ee2911-3cfd-483b-8e3a-0fdb52380a1d",
+      "domain": "login.luxid.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PD_STATEFUL_a7d8be02-70cb-11ef-a38a-005056b35a37",
+      "value": "%2Fmga",
+      "domain": "login.luxid.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PD-S-SESSION-ID",
+      "value": "1_y9OfqkmbkMytbaaivbz1BtaIZcodeVXhDuc2kba5B8yJMzf1zq0=_AAAAAQA=_vv4XtQ/2hibQHHoJ87q26EMyjik=",
+      "domain": "login.luxid.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PD-S-SESSION-ID",
+      "value": "1_L05JLZJiX3+Uic5cuFMrj1pYhcVmHCvEjP2oS+uHDi2VfVi3MLA=_AAAAAAA=_XbbuPXLfoKhX1atMfPz3GdesnyY=",
+      "domain": "www.mypost.lu",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2024-11-11T13:14:54.998Z",
+      "domain": ".www.mypost.lu",
+      "path": "/",
+      "expires": 1762866894,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isIABGlobal=false&datestamp=Mon+Nov+11+2024+14%3A14%3A55+GMT%2B0100+(Central+European+Standard+Time)&version=202208.1.0&hosts=&consentId=c47f6bba-086e-4722-a421-f988b408c51f&interactionCount=1&landingPath=NotLandingPage&groups=1%3A1%2C2%3A1&geolocation=%3B&AwaitingReconsent=false",
+      "domain": ".www.mypost.lu",
+      "path": "/",
+      "expires": 1762866895,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.mypost.lu",
+      "localStorage": [
+        {
+          "name": "lastEvent",
+          "value": "{\"type\":\"CONSULTATION\",\"actionId\":\"001\",\"registeredTime\":1731330894739}"
+        },
+        {
+          "name": "ngStorage-menuOpen",
+          "value": "false"
+        },
+        {
+          "name": "NG_TRANSLATE_LANG_KEY",
+          "value": "fr"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.post.lu",
+      "localStorage": [
+        {
+          "name": "_uetvid",
+          "value": "ef9d5710a02e11efaed24d962f82c5d0"
+        },
+        {
+          "name": "u_sclid_r",
+          "value": "4NVnSdB8vvM1OSKwHmDQ2-PpI8T4Bt-tfySyFACWIGvJzw-UpURmY645fp8oIEEV"
+        },
+        {
+          "name": "u_sclid",
+          "value": "4NVnSdB8vvM1OSKwHmDQ2-PpI8T4Bt-tfySyFACWIGvJzw-UpURmY645fp8oIEEV"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Sat, 06 Dec 2025 13:14:52 GMT"
+        },
+        {
+          "name": "_uetsid",
+          "value": "ef9d6a60a02e11ef99404f5feda39f43"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Tue, 12 Nov 2024 13:14:52 GMT"
+        }
+      ]
+    },
+    {
+      "origin": "https://login.luxid.lu",
+      "localStorage": [
+        {
+          "name": "LUXID_LANGUAGE",
+          "value": "fr"
+        }
+      ]
+    }
+  ]
+}
