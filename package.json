@@ -1,14 +1,24 @@
 {
-  "name": "lste",
+  "name": "ply-mypost",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "pretest": "tsc --noEmit && eslint tests/**",
+    "test": "playwright test",
+    "preui": "tsc --noEmit && eslint tests/**",
+    "ui": "playwright test --ui"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.48.2",
-    "@types/node": "^22.9.0"
+    "@eslint/js": "^9.13.0",
+    "@playwright/test": "^1.48.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.7.7",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
   }
 }
