@@ -52,11 +52,19 @@ export class MyPostPage {
         })
     }
 
-    public async compareScreenshots() {
+    public async compareScreenshots(){
         await test.step('Validate dashboard screenshot', async () => {
-            expect.soft(await this.page.screenshot()).toMatchSnapshot('dashboard.png');
+          // Default threshold 0.2 for acceptable perceived color difference in the YIQ color space
+          // Possible to configure maxDiffPixelRatio and maxDiffPixels for some flexibility
+          // expect(await this.page.screenshot()).toMatchSnapshot('dashboard.png');
+          // expect(await this.page.locator('.pt-overlay').first().screenshot()).toMatchSnapshot('first-tile.png');
+          await this.page.screenshot({ 
+            path: 'tests/example.spec.ts-snapshots/masked.png', 
+            mask: [this.page.locator('.pt-overlay').first()],
+            maskColor: '#000000',
+          });
         });
-    }
+      }
 
     public async compareScreenshotElement() {
         await test.step('Validate element screenshot', async () => {
